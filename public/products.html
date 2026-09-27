@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - AKS Sales</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+  <style>
+    .pricing-table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+    .pricing-table th, .pricing-table td { padding: 10px 14px; border-bottom: 1px solid var(--gray-200); text-align: left; font-size: 14px; }
+    .pricing-table th { background: var(--gray-50); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .pricing-table td:first-child { font-weight: 600; }
+    .product-detail { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .product-detail .badge-price { background: var(--gray-100); border: 1px solid var(--gray-200); padding: 6px 14px; border-radius: 20px; font-size: 14px; font-weight: 600; }
+    .module-table td:first-child { font-weight: 600; }
+    .module-table tr:nth-child(even) td { background: var(--gray-50); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="/" class="logo">AKS Sales</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="#small-tools">Small Tools</a>
+        <a href="#custom-software">Custom Software</a>
+        <a href="#websites">Websites</a>
+        <a href="#mining">Mining Platform</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top: 60px;">
+    <div class="container">
+      <h1 class="section-title">Product Catalog</h1>
+      <p class="section-subtitle">Ready-to-sell products with fixed pricing and clear deliverables</p>
+    </div>
+  </section>
+
+  <!-- Small Tools -->
+  <section id="small-tools" class="section" style="background: var(--gray-50);">
+    <div class="container">
+      <h2 class="section-title">Small Tools</h2>
+<p class="section-subtitle">Entry tier - ₹16,500 to ₹75,000 | 1-7 day delivery | Fast-turnaround utilities for your workflow</p>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <h3>Bulk Invoice Generator</h3>
+          <p>Excel/CSV to PDF invoices in batch, GST/auto-tax ready.</p>
+          <p><strong>Best for:</strong> Freelancers, traders</p>
+          <div class="product-detail">
+            <span class="badge-price">$199 (₹11,500)</span>
+            <a href="/#contact" class="btn btn-sm btn-primary">Get Quote</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <h3>WhatsApp Order Bot</h3>
+          <p>Auto-replies, order capture, lead export to Google Sheets.</p>
+          <p><strong>Best for:</strong> Retailers, restaurants</p>
+          <div class="product-detail">
+            <span class="badge-price">$299 (₹17,500)</span>
+            <a href="/#contact" class="btn btn-sm btn-primary">Get Quote</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <h3>PDF Merger + Watermarker Pro</h3>
+          <p>Merge, split, stamp, brand - desktop application.</p>
+          <p><strong>Best for:</strong> Law firms, consultants</p>
+          <div class="product-detail">
+            <span class="badge-price">$149 (₹8,500)</span>
+            <a href="/#contact" class="btn btn-sm btn-primary">Get Quote</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <h3>Inventory Tracker Lite</h3>
+          <p>SKU + stock in/out with low-stock alerts (Excel + Web).</p>
+          <p><strong>Best for:</strong> Small shops</p>
+          <div class="product-detail">
+            <span class="badge-price">$349 (₹20,500)</span>
+            <a href="/#contact" class="btn btn-sm btn-primary">Get Quote</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 32px;">
+        <div class="card-header"><span class="card-title">All Small Tools</span></div>
+        <table class="pricing-table">
+          <thead>
+            <tr><th>Product</th><th>Description</th><th>Target</th><th>USD</th><th>INR</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Bulk Invoice Generator</td><td>Excel/CSV to PDF, GST-ready</td><td>Freelancers, traders</td><td>$199</td><td>₹11,500</td></tr>
+            <tr><td>WhatsApp Order Bot</td><td>Auto-replies + order capture + sheet export</td><td>Retailers, restaurants</td><td>$299</td><td>₹17,500</td></tr>
+            <tr><td>PDF Merger + Watermarker Pro</td><td>Merge, split, stamp, brand</td><td>Law firms, consultants</td><td>$149</td><td>₹8,500</td></tr>
+            <tr><td>Inventory Tracker Lite</td><td>SKU + low-stock alerts (Excel + Web)</td><td>Small shops</td><td>$349</td><td>₹20,500</td></tr>
+            <tr><td>Lead Scraper</td><td>Google Maps / LinkedIn extraction</td><td>Sales teams</td><td>$399</td><td>₹23,000</td></tr>
+            <tr><td>Email Drip Automator</td><td>Gmail/Outlook scheduling sequences</td><td>Marketers</td><td>$499</td><td>₹29,000</td></tr>
+            <tr><td>Employee Attendance + Payroll</td><td>Selfie + GPS check-in</td><td>SMBs</td><td>$599</td><td>₹35,000</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom Software -->
+  <section id="custom-software" class="section">
+    <div class="container">
+      <h2 class="section-title">Custom Software</h2>
+      <p class="section-subtitle">Mid tier - ₹83,000 to ₹8,30,000 | 2-8 week delivery | Bespoke apps for specific business problems</p>
+
+      <div class="product-grid">
+        <div class="product-card featured">
+          <h3>CRM Lite (Custom-Branded)</h3>
+          <p>Leads, deals, follow-ups, WhatsApp sync - fully branded to your business.</p>
+          <p><strong>Best for:</strong> Service businesses</p>
+          <div class="product-detail">
+            <span class="badge-price">$1,999 (₹1,15,000)</span>
+            <a href="/#contact" class="btn btn-sm btn-primary">Get Quote</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <h3>Inventory + Billing ERP</h3>
+          <p>Stock, invoices, GST, suppliers, and comprehensive reporting.</p>
+          <p><strong>Best for:</strong> Wholesalers, distributors</p>
+          <div class="product-detail">
+            <span class="badge-price">$2,499 (₹1,45,000)</span>
+            <a href="/#contact" class="btn btn-sm btn-primary">Get Quote</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <h3>School/Coaching Management</h3>
+          <p>Students, fees, attendance, parent communication app.</p>
+          <p><strong>Best for:</strong> Schools, tutors</p>
+          <div class="product-detail">
+            <span class="badge-price">$1,799 (₹1,00,000)</span>
+            <a href="/#contact" class="btn btn-sm btn-primary">Get Quote</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 32px;">
+        <div class="card-header"><span class="card-title">All Custom Software Products</span></div>
+        <table class="pricing-table">
+          <thead>
+            <tr><th>Product</th><th>Description</th><th>Target</th><th>USD</th><th>INR</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>CRM Lite (Custom-Branded)</td><td>Leads, deals, follow-ups, WhatsApp sync</td><td>Service businesses</td><td>$1,999</td><td>₹1,15,000</td></tr>
+            <tr><td>Inventory + Billing ERP</td><td>Stock, invoices, GST, suppliers, reports</td><td>Wholesalers, distributors</td><td>$2,499</td><td>₹1,45,000</td></tr>
+            <tr><td>School/Coaching Management</td><td>Students, fees, attendance, parent app</td><td>Schools, tutors</td><td>$1,799</td><td>₹1,00,000</td></tr>
+            <tr><td>Clinic/Hospital Management</td><td>Appointments, EMR, pharmacy, billing</td><td>Clinics</td><td>$2,999</td><td>₹1,70,000</td></tr>
+            <tr><td>Custom Desktop POS</td><td>Offline-first, barcode, thermal printing</td><td>Retail stores</td><td>$999</td><td>₹58,000</td></tr>
+            <tr><td>Field Service App</td><td>Job assignment, GPS, photo proof, invoicing</td><td>Service companies</td><td>$3,499</td><td>₹2,00,000</td></tr>
+            <tr><td>HRMS</td><td>Recruit, payroll, leave, performance</td><td>50-500 employee firms</td><td>$4,999</td><td>₹2,90,000</td></tr>
+            <tr><td>Multi-Branch Dashboard</td><td>Consolidate KPIs across locations</td><td>Chain businesses</td><td>$5,999</td><td>₹3,50,000</td></tr>
+          </tbody>
+        </table>
+
+        <div class="pipeline-bar" style="margin-top: 24px;">
+          <div class="pipeline-stage"><span class="stage-name">Mobile App Add-on</span><span class="stage-count">+$499</span></div>
+          <div class="pipeline-stage"><span class="stage-name">Support Package</span><span class="stage-count">+$299/mo</span></div>
+          <div class="pipeline-stage"><span class="stage-name">API Integration</span><span class="stage-count">+$999</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Websites -->
+  <section id="websites" class="section" style="background: var(--gray-50);">
+    <div class="container">
+      <h2 class="section-title">Websites</h2>
+      <p class="section-subtitle">Mid tier - ₹33,000 to ₹4,12,000 | Sell by type and purpose, not by page count</p>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <h3>Starter Business Site</h3>
+          <p>3 pages, mobile responsive, contact form included.</p>
+          <p><strong>Best for:</strong> Local service providers</p>
+          <div class="product-detail">
+            <span class="badge-price">$499 (₹29,000)</span>
+            <a href="/#contact" class="btn btn-sm btn-primary">Get Quote</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <h3>Lead-Gen Landing Page</h3>
+          <p>1 high-converting page, A/B testing ready.</p>
+          <p><strong>Best for:</strong> Ads and funnel traffic</p>
+          <div class="product-detail">
+            <span class="badge-price">$399 (₹23,000)</span>
+            <a href="/#contact" class="btn btn-sm btn-primary">Get Quote</a>
+          </div>
+        </div>
+        <div class="product-card featured">
+          <h3>E-Commerce Store (Lite)</h3>
+          <p>Cart, COD, UPI, WhatsApp checkout for 1-50 products.</p>
+          <p><strong>Best for:</strong> Small online stores</p>
+          <div class="product-detail">
+            <span class="badge-price">$1,499 (₹87,500)</span>
+            <a href="/#contact" class="btn btn-sm btn-primary">Get Quote</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 32px;">
+        <div class="card-header"><span class="card-title">All Website Products</span></div>
+        <table class="pricing-table">
+          <thead>
+            <tr><th>Product</th><th>Best For</th><th>Deliverables</th><th>USD</th><th>INR</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Starter Business Site</td><td>Local service providers</td><td>3 pages, mobile, contact form</td><td>$499</td><td>₹29,000</td></tr>
+            <tr><td>Professional Service Site</td><td>Consultants, lawyers, doctors</td><td>6 pages, blog, SEO setup</td><td>$899</td><td>₹52,500</td></tr>
+            <tr><td>Lead-Gen Landing Page</td><td>Ads/funnel traffic</td><td>1 high-converting page, A/B ready</td><td>$399</td><td>₹23,000</td></tr>
+            <tr><td>E-Commerce Store (Lite)</td><td>1-50 products</td><td>Cart, COD, UPI, WhatsApp checkout</td><td>$1,499</td><td>₹87,500</td></tr>
+            <tr><td>Full E-Commerce Store</td><td>50+ products</td><td>Inventory, payment gateway, shipping API</td><td>$2,499</td><td>₹1,45,000</td></tr>
+            <tr><td>Custom Web App/Portal</td><td>Customer login, dashboards</td><td>Auth, DB, role-based access</td><td>$3,999</td><td>₹2,35,000</td></tr>
+            <tr><td>Restaurant Site + Menu</td><td>Cafes, restaurants</td><td>Menu, QR order, table booking</td><td>$999</td><td>₹58,000</td></tr>
+            <tr><td>Real Estate / Property Site</td><td>Builders, agents</td><td>Listings, filters, lead capture</td><td>$1,799</td><td>₹1,00,000</td></tr>
+          </tbody>
+        </table>
+
+        <div class="pipeline-bar" style="margin-top: 24px;">
+            <div class="pipeline-stage"><span class="stage-name">Hosting + Maintenance</span><span class="stage-count">₹2,300-7,500/mo</span></div>
+            <div class="pipeline-stage"><span class="stage-name">SEO Package</span><span class="stage-count">₹1,500/mo</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mining & Crushing Platform -->
+  <section id="mining" class="section">
+    <div class="container">
+      <h2 class="section-title">Mining &amp; Crushing Platform</h2>
+      <p class="section-subtitle">Enterprise tier - ₹38,00,000+ | Modular packages for mining and aggregate operations</p>
+
+      <div class="card">
+        <div class="card-header"><span class="card-title">Pre-Built Packages</span></div>
+        <table class="pricing-table">
+          <thead>
+            <tr><th>Package</th><th>Target</th><th>Modules Included</th><th>USD</th><th>INR</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Starter (50 TPH)</strong></td>
+              <td>Small quarry</td>
+              <td>Production Monitoring + Dispatch + Mobile App</td>
+              <td><strong>$50,000</strong></td>
+              <td><strong>₹27,00,000</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Growth (150 TPH)</strong></td>
+              <td>Mid-size operator</td>
+              <td>+ Material Flow + Inventory + QC</td>
+              <td><strong>$85,000</strong></td>
+              <td><strong>₹46,00,000</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Enterprise (500 TPH)</strong></td>
+              <td>Large multi-site</td>
+              <td>All modules + ERP integration + 1 yr support</td>
+              <td><strong>$150,000+</strong></td>
+              <td><strong>₹88,00,000+</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card" style="margin-top: 24px;">
+        <div class="card-header"><span class="card-title">Core Modules</span></div>
+        <table class="pricing-table module-table">
+          <thead>
+            <tr><th>Module</th><th>Description</th><th>USD</th><th>INR</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Crushing Plant Automation</td><td>PLC/SCADA integration, motor control, auto-feed</td><td>$18,000</td><td>₹9,70,000</td></tr>
+            <tr><td>Material Flow Tracking</td><td>Weighbridge to stockpile to dispatch, real-time</td><td>$12,000</td><td>₹6,45,000</td></tr>
+            <tr><td>Production Monitoring Dashboard</td><td>TPH, uptime, downtime, energy use live</td><td>$8,000</td><td>₹4,30,000</td></tr>
+            <tr><td>Inventory &amp; Stockpile Mgmt</td><td>Material grade-wise stock, valuation, alerts</td><td>$7,500</td><td>₹4,00,000</td></tr>
+            <tr><td>Quality Control Module</td><td>Sample tracking, test results, certificates</td><td>$6,000</td><td>₹3,20,000</td></tr>
+            <tr><td>Dispatch &amp; Gate Pass System</td><td>Truck in/out, e-pass, invoice auto-trigger</td><td>$9,000</td><td>₹4,85,000</td></tr>
+            <tr><td>Maintenance Scheduler</td><td>Equipment-wise PM calendar, spare inventory</td><td>$5,500</td><td>₹2,95,000</td></tr>
+            <tr><td>Mobile App for Site Supervisors</td><td>Offline-first, photo + GPS reporting</td><td>$4,500</td><td>₹2,40,000</td></tr>
+            <tr><td>Analytics &amp; MIS Reports</td><td>Daily, weekly, monthly auto reports + BI</td><td>$6,500</td><td>₹3,50,000</td></tr>
+            <tr><td>ERP Integration</td><td>Sync with Tally/SAP/Custom finance system</td><td>$5,000</td><td>₹2,65,000</td></tr>
+          </tbody>
+        </table>
+
+        <p style="margin-top: 24px; font-size: 14px; color: var(--gray-600); text-align: center;">
+          Every package includes site assessment, training, 6-month AMC, and source code ownership option.
+          <br><strong>Special offer for Indian customers: 30% discount on all mining packages.</strong>
+        </p>
+      </div>
+
+      <div style="text-align: center; margin-top: 32px;">
+        <a href="/booking.html" class="btn btn-primary">Schedule a Call</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">AKS Sales</div>
+        <p class="footer-text">© 2025 AKS Sales. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

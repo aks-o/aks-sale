@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AKS SALE - Admin Dashboard</title>
+  <link rel="stylesheet" href="/admin/admin.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div id="adminApp">
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">AKS Sales</div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-link active" data-page="dashboard">Dashboard</a>
+        <a href="#" class="nav-link" data-page="contacts">Contacts</a>
+        <a href="#" class="nav-link" data-page="deals">Deals</a>
+        <a href="#" class="nav-link" data-page="tasks">Tasks</a>
+        <a href="#" class="nav-link" data-page="emails">Emails</a>
+        <a href="#" class="nav-link" data-page="reports">Reports</a>
+        <a href="#" class="nav-link" id="logoutBtn">Logout</a>
+      </nav>
+    </div>
+
+    <div class="main-content">
+      <div class="topbar">
+        <div class="topbar-title" id="pageTitle">Dashboard</div>
+        <div class="topbar-user">
+          <span id="userName">Admin</span>
+        </div>
+      </div>
+
+      <div class="content-wrapper" id="contentArea">
+        <div class="loading">Loading...</div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/admin/login.js"></script>
+</body>
+</html>

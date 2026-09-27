@@ -1,0 +1,32 @@
+{
+  "name": "aks-sale",
+  "version": "1.0.0",
+  "description": "AKS Sales Automation System - Lead capture, CRM, and email automation for tools, software, websites, and mining & crushing platforms",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "lint": "node --check src/server.js && node --check src/database.js && node --check src/emailService.js && node --check src/automation/workflowEngine.js && node --check src/routes/api.js",
+    "test": "node --test tests/"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.14",
+    "pg": "^8.23.0",
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [
+    "sales",
+    "automation",
+    "crm",
+    "lead-capture",
+    "email-marketing",
+    "mining"
+  ],
+  "author": "AKS Systems",
+  "license": "MIT"
+}
