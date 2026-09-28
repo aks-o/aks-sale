@@ -98,7 +98,7 @@ curl -X POST http://localhost:3000/api/login \
 ### Digital Products Email Sequence (Workflow 2)
 - Day 0: Welcome email (sent immediately on form submission)
 - Day 2: Follow-up with value + testimonial
-- Day 4: Limited-time discount offer
+- Day 4: Limited-time offer (best price locked in)
 - Day 7: Gentle check-in
 
 ### Mining Platform High-Touch (Workflow 3)

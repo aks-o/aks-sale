@@ -111,12 +111,12 @@ export const renderTemplate = (templateName, variables = {}) => {
           <p>Hi ${v.name || 'there'},</p>
           <p>Thank you for your interest in our <strong>${v.product || 'solutions'}</strong>. I'm excited to help you get started!</p>
           <p>Based on your inquiry, here's a quick overview of what we can build for you:</p>
-          <ul style="line-height: 1.8;">
-            <li><strong>Small Tools (from ₹11,500):</strong> Quick, cost-effective utilities tailored to your workflow</li>
-            <li><strong>Software (from ₹1,00,000):</strong> Custom applications designed for your specific needs</li>
-            <li><strong>Websites (from ₹23,000):</strong> Professional, high-converting web presences</li>
-            <li style="color: #dc2626;"><strong>Indian customers get 30% discount on all products</strong></li>
-          </ul>
+           <ul style="line-height: 1.8;">
+             <li><strong>Small Tools (from ₹12,000):</strong> Quick, cost-effective utilities tailored to your workflow</li>
+             <li><strong>Software (from ₹1,00,000):</strong> Custom applications designed for your specific needs</li>
+             <li><strong>Websites (from ₹24,000):</strong> Professional, high-converting web presences</li>
+             <li style="color: #059669;"><strong>All prices shown in USD and INR</strong></li>
+           </ul>
           <div style="background: #f3f4f6; padding: 20px; border-radius: 8px; text-align: center; margin: 20px 0;">
             <p style="font-size: 18px; margin: 0;">Ready to move forward?</p>
             <a href="${v.siteUrl}/contact" style="display: inline-block; background: #2563eb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; margin-top: 10px;">Book a Quick Call</a>
@@ -151,7 +151,7 @@ export const renderTemplate = (templateName, variables = {}) => {
             </tr>
             <tr>
               <td style="padding: 10px; border: 1px solid #e5e7eb;"><strong>Pricing (INR)</strong></td>
-              <td style="padding: 10px; border: 1px solid #e5e7eb;">From ₹27,00,000 (30% off for Indian customers)</td>
+              <td style="padding: 10px; border: 1px solid #e5e7eb;">From ₹30,00,000</td>
             </tr>
             <tr>
               <td style="padding: 10px; border: 1px solid #e5e7eb;"><strong>Deployment</strong></td>
@@ -190,21 +190,21 @@ export const renderTemplate = (templateName, variables = {}) => {
 
      offer_digital: (v) => `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333;">
-        <div style="background: #dc2626; color: white; padding: 20px; text-align: center;">
-          <h1 style="margin: 0; font-size: 24px;">Special Offer - Limited Time</h1>
-          <p style="margin: 10px 0 0; font-size: 18px;">Save 15% if you decide this week</p>
-        </div>
+         <div style="background: #dc2626; color: white; padding: 20px; text-align: center;">
+           <h1 style="margin: 0; font-size: 24px;">Special Offer - Limited Time</h1>
+           <p style="margin: 10px 0 0; font-size: 18px;">Best price locked in if you decide this week</p>
+         </div>
         <div style="padding: 30px;">
           <p>Hi ${v.name || 'there'},</p>
           <p>This is a <strong>limited-time offer</strong> exclusively for you:</p>
           <ul style="line-height: 1.8;">
-            <li>30% discount on your ${v.product || ''} project (in USD or INR)</li>
+            <li>Best price locked in for your ${v.product || ''} project (in USD or INR)</li>
             <li>Free consultation and requirements analysis</li>
             <li>Priority scheduling</li>
           </ul>
           <p style="font-size: 18px;"><strong>This offer expires in 48 hours.</strong></p>
           <div style="background: #fef3c7; padding: 20px; text-align: center; border-radius: 8px; margin: 20px 0;">
-            <p style="font-size: 16px; margin: 0 0 10px;"><strong>Claim your 15% discount now</strong></p>
+            <p style="font-size: 16px; margin: 0 0 10px;"><strong>Claim this offer now</strong></p>
             <a href="${v.siteUrl}/contact" style="display: inline-block; background: #dc2626; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px;">Claim Offer</a>
           </div>
           <p style="color: #6b7280; font-size: 14px;">Questions? Just reply to this email.</p>

@@ -69,7 +69,7 @@ export const createContactAndDeal = async (contactData) => {
         productInterest,
         pipeline,
         dealStages,
-        isMining ? 50000 : 1000,
+        isMining ? 40000 : 1000,
         10
       ]
     );
